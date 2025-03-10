@@ -15,7 +15,7 @@ Este repositorio contiene un conjunto de consultas MongoDB escritas para interac
 
 ## Estructura del Repositorio
 
-* **`restaurant_queries.js`**: Este archivo contiene todas las consultas MongoDB escritas en JavaScript.
+* **`restaurant_queries.js`**: Este archivo contiene todas las consultas MongoDB.
 * **`restaurant.json`**: Copia de la base de datos MongoDB "restaurant".
 
 ## Requisitos
