@@ -55,6 +55,29 @@ Este repositorio contiene un conjunto de consultas MongoDB escritas para interac
         ```
 
     * Puedes copiar y pegar las consultas del archivo `restaurant_queries.js` en la terminal y ejecutarlas.
+    * 
+## Conexion de la BD Restaurant con Java (Extra)
+
+El directorio `mongo-queries` contiene un proyecto Java con Maven que demuestra cómo conectarse a la base de datos MongoDB "restaurant" y ejecutar algunas de las consultas.
+
+### Configuración del Proyecto Java
+
+1.  Asegúrate de que MongoDB esté en ejecución.
+2.  Abre un terminal y navega hasta el directorio `mongo-queries/`.
+3.  Modifica la cadena de conexión en `src/main/java/MongoDBConnection.java` si es necesario para que coincida con tu configuración de MongoDB.
+4.  Ejecuta el siguiente comando para compilar y ejecutar el proyecto:
+
+    ```bash
+    mvn clean install exec:java -Dexec.mainClass="Main"
+    ```
+
+### Estructura del Proyecto Java
+
+* **`src/main/java/MongoDBConnection.java`**: Clase que establece la conexión con la base de datos MongoDB.
+* **`src/main/java/RestaurantDAO.java`**: Clase que contiene métodos para interactuar con la colección de restaurantes en la base de datos.
+* **`src/main/java/Main.java`**: Clase principal que ejecuta los métodos del DAO.
+* **`pom.xml`**: Archivo de configuración de Maven que gestiona las dependencias del proyecto.
+
 
 ## Contribución
 
